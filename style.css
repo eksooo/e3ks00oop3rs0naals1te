@@ -15,22 +15,24 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1;
+    background-color: #3d3d3d;
+    text-align: center;
 }
 nav ul li {
     display: inline-block;
     margin: 10px;
-    font-size: 30px;
+    font-size: 20px;
 }
 nav ul li a{
     color: whitesmoke;
     text-decoration: none;
     text-shadow: 1px 1px rgba(0,0,0,0.4);
-    padding: 1rem;
+    padding: 0.6rem;
     transition: 0.5s;
 }
 nav ul li a:hover{
     background-color: #1C1B19;
-    font-size: 32px;
+    font-size: 22px;
 }
 .main {
     min-height: 100vh;
@@ -40,7 +42,7 @@ nav ul li a:hover{
 }
 main h1 {
     color: white;
-    font-size: 140px;
+    font-size: 110px;
     -webkit-text-stroke: 5px #1C1B19;
     padding: 1rem;
 }
@@ -78,28 +80,32 @@ article {
 }
 article img {
     float: left;
-    width: 50%;
+    width: 650px;
 }
+
 article h1 {
     font-size: 60px;
     text-align: center;
 }
 article span > * {
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 100px;
     text-align: center;
 }
 .blog {
-    min-height: 100vh;
     background: #CCCCCC;
+    min-height: 100vh;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .blog img {
+    display: inline-block;
     float: left;
-    position: absolute;
-    top:1455px;
+    width: 70%;
 }
 .blog main {
-    float: right;
     text-align: center;
 }
 .blog main a {
@@ -114,7 +120,7 @@ article span > * {
     font-size: larger;
 }
 footer {
-    min-height: 30vh;
+    min-height: 20vh;
     background: #1C1B19;
     text-align: center;
     color: white;
